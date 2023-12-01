@@ -30,6 +30,8 @@ ecgains = []
 # Dictionary to store results
 results = {}
 
+wait = WebDriverWait(driver, 10)
+
 # Loop through websites
 for key, value in websites_list.items():
     print(f"[+] Checking website {key} out of {len(websites_list)}...", end="\r")
@@ -41,9 +43,7 @@ for key, value in websites_list.items():
         continue
 
     try:
-        element = WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located((By.XPATH, value["xpath"]))
-        )
+        element = wait.until(EC.visibility_of_element_located((By.XPATH, value["xpath"])))
 
         text = element.text if element else None
         
@@ -55,9 +55,7 @@ for key, value in websites_list.items():
             websites_list[key]["message"] = text.replace("\n", "\n")
 
         results[key] = {"ecgain": value["ecgain"], "contains_bids": contains_bids}
-    except NoSuchElementException:
-        results[key] = {"ecgain": value["ecgain"], "contains_bids": "Exception thrown! Check Manually."}
-    except TimeoutException:
+    except (NoSuchElementException, TimeoutException):
         results[key] = {"ecgain": value["ecgain"], "contains_bids": "Exception thrown! Check Manually."}
 print("")
 
