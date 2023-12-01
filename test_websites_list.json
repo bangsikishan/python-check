@@ -261,7 +261,7 @@
         "ecgain": "05-07-002-0005-000000",
         "url": "https://www.townofcantonct.org/rfp-contracts",
         "xpath": "/html/body/form/main/section/div/div/div/div/div/div[1]",
-        "message": "Invitation For Bid for Replacement of Bridge No. 023006, Old Canton Road over Rattlesnake Brook\nArchives"
+        "message": "There are no items to display at this time\nArchives"
     },
     "45": {
         "ecgain": "05-04-012-0008-000000",
@@ -339,7 +339,7 @@
         "ecgain": "05-30-006-0012-000000",
         "url": "https://www.nashuanh.gov/Bids.aspx",
         "xpath": "/html/body/div[8]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/div/form[1]/div[3]/table/tbody/tr/td[2]/div[5]/table/thead[1]/tr",
-        "message": "City\n3 Bids"
+        "message": "City\n4 Bids"
     },
     "58": {
         "ecgain": "05-07-001-0006-000000",
@@ -375,6 +375,150 @@
         "ecgain": "05-05-019-0003-000000",
         "url": "https://www.cityofalhambra.org/bids.aspx",
         "xpath": "/html/body/div[9]/div/div[2]/div[2]/div[3]/div/div/div[1]/div/div[2]/div/form[1]/div[3]/table/tbody/tr/td[2]/div[5]/table/thead[1]/tr",
-        "message": "Notice Inviting Bids\n3 Bids"
+        "message": "Notice Inviting Bids\n2 Bids"
+    },
+    "64": {
+        "ecgain": "05-05-031-0013-000000",
+        "url": "https://www.cityoforange.org/business/current-bids-proposals",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "RF PROPOSAL - 23-24.20 - Landscape Renovation at White Oak Ridge between Newport Boulevard and Trails End Lane"
+    },
+    "65": {
+        "ecgain": "05-19-009-00-1-000000",
+        "url": "https://www.townhall.westwood.ma.us/departments/procurement/procurement-requests",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Real Estate at 47 Willard Circle"
+    },
+    "66": {
+        "ecgain": "05-05-040-0005-000000",
+        "url": "https://www.cityoftracy.org/government/rfp-notices",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Request for Proposals - Grand Theatre Concessionaire Services"
+    },
+    "67": {
+        "ecgain": "03-09-022-0005-000000",
+        "url": "https://www.gadsdencountyfl.gov/business/find-a-document/documents/bids-rfps",
+        "xpath": "/html/body/div[2]/div/div/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Gadsden County Woodham Building Elevator Modernization"
+    },
+    "68": {
+        "ecgain": "05-16-031-0001-000000",
+        "url": "https://www.garden-city.org/services/advanced-components/misc-pages/bids-rfps/-selyear-2018/-selsta-4",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[1]/a",
+        "message": "Southeast Park \u2013 Phase 4 \u2013 Plaza Improvements"
+    },
+    "69": {
+        "ecgain": "05-42-086-0009-000000",
+        "url": "https://www.hvilletn.org/businesses/bid-notices-rfps",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Invitation to Bid: Annual Animal Carcass Removal"
+    },
+    "70": {
+        "ecgain": "05-05-019-0048-000000",
+        "url": "https://www.torranceca.gov/government/city-clerk/request-for-proposals",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Bid for Construction of Residential and Arterial Pavement Improvement, I-159/I-139"
+    },
+    "71": {
+        "ecgain": "03-48-037-0014-000000",
+        "url": "https://www.marathoncounty.gov/about-us/rfps-bids",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Financial Audit Services"
+    },
+    "72": {
+        "ecgain": "05-27-066-0001-000000",
+        "url": "https://www.wilmingtonnc.gov/departments/finance-department/current-bids",
+        "xpath": "/html/body/div[5]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Local Contractors & Service Providers"
+    },
+    "73": {
+        "ecgain": "05-14-107-0001-000000",
+        "url": "https://www.joliet.gov/government/departments/finance/purchasing/bids-proposals",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "REQUEST FOR STATEMENT OF QUALIFICATIONS FOR ROSALIND STREET CULVERT REPLACMENT PROJECT"
+    },
+    "74": {
+        "ecgain": "03-32-008-0003-000000",
+        "url": "https://www.donaanacounty.org/departments/administration/financial-services/online-bids-and-proposals",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "REQUEST FOR PROPOSALS HUMAN RESOURCES CONSULTING SERVICES: COMPENSATION, BENEFITS AND COMPLIANCE"
+    },
+    "75": {
+        "ecgain": "03-05-023-0003-000000",
+        "url": "https://www.mendocinocounty.org/government/transportation/rfps-rfqs-projects-to-bid",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "2023 Emergency Opening Storm Damage Repairs On Mendocino County Pass Road"
+    },
+    "76": {
+        "ecgain": "05-43-233-0001-000000",
+        "url": "https://www.cityofdelrio.com/government/departments/purchasing/bid-postings",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div/table/tbody/tr[1]/td[2]/a",
+        "message": "RFP REQUEST FOR PROPOSALS FOR A CLASSIFICATION AND COMPENSATION STUDY FOR THE CITY OF DEL RIO"
+    },
+    "77": {
+        "ecgain": "05-04-016-0004-000000",
+        "url": "https://www.yumacountyaz.gov/i-want-to/view-request-for-proposals",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Catholic Community Services Safe House Expansion Project"
+    },
+    "78": {
+        "ecgain": "05-42-078-0004-000000",
+        "url": "https://www.townofsmyrna.org/departments/finance/bids-and-rfp",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr/td[1]/a",
+        "message": "Legal Notice - Fire Hall #3 Metal Building Bid Opening"
+    },
+    "79": {
+        "ecgain": "05-47-038-0004-000000",
+        "url": "https://www.wallawallawa.gov/services/rfps-bids",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[1]/a",
+        "message": "Watershed Master/Resiliency Plan - Request for Qualifications"
+    },
+    "80": {
+        "ecgain": "05-48-040-0001-000002",
+        "url": "https://www.hacm.org/doing-business-with-us/procurement",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/div[3]/table/tbody/tr[1]/td[2]/a",
+        "message": "Quote# 10092 - Mud Jacking at Hillside"
+    },
+    "81": {
+        "ecgain": "05-05-035-0003-000000",
+        "url": "https://www.cityofgalt.org/government/public-works-department/bid-cip-construction-projects",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[3]/table/tbody/tr[1]/td[2]/a",
+        "message": "WWTP Headworks Rehabilitation Project"
+    },
+    "82": {
+        "ecgain": "05-19-009-0023-000000",
+        "url": "https://www.arlingtonma.gov/departments/finance/purchasing",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Annual Traffic Signal & Street Light Maintenance"
+    },
+    "83": {
+        "ecgain": "03-45-002-0002-000000",
+        "url": "https://www.albemarle.org/government/finance/procurement/solicitations/-selsta-4",
+        "xpath": "/html/body/div[5]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Child Nutrition Equipment"
+    },
+    "84": {
+        "ecgain": "05-27-070-0001-000000",
+        "url": "https://www.townofchapelhill.org/government/departments-services/business-management/purchasing-and-contracts/notice-to-bidders",
+        "xpath": "/html/body/div[2]/div[1]/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Police SUV AWD Interceptors"
+    },
+    "85": {
+        "ecgain": "03-46-009-0004-000000",
+        "url": "https://www.co.augusta.va.us/things-to-do/new-advanced-components/rfp-posts-list",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Augusta County Courthouse"
+    },
+    "86": {
+        "ecgain": "05-05-004-0004-000000",
+        "url": "https://www.cityoforoville.org/business/rfp",
+        "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Video surveillance trailer and fixed mount surveillance systems"
+    },
+    "87": {
+        "ecgain": "05-19-009-0015-000000",
+        "url": "https://www.newtonma.gov/government/purchasing/current-bids",
+        "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
+        "message": "Sidewalk Snow Plowing - Hourly"
     }
 }

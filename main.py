@@ -1,11 +1,15 @@
 import json
-import time
-
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
+# Set Chrome options and service
 chromedriver_path = "D:\\Python\\scrape\\chromedriver-win64\\chromedriver.exe"
 service = Service(executable_path=chromedriver_path)
 
@@ -13,52 +17,62 @@ options = Options()
 options.add_argument("--log-level=3")
 options.add_argument("--headless")
 
+# Load website data
 with open("websites_list.json", "r") as f:
     websites_list = json.load(f)
 
+# Initialize WebDriver
 driver = webdriver.Chrome(options=options, service=service)
 
-results = {}
-messages = {}
+# List to store ecgains
 ecgains = []
+
+# Dictionary to store results
+results = {}
+
+# Loop through websites
 for key, value in websites_list.items():
     print(f"[+] Checking website {key} out of {len(websites_list)}...", end="\r")
 
-    driver.get(value["url"])
-    # with open("source1.html", "w", encoding="utf-8") as f:
-    #     f.write(driver.page_source)
-    time.sleep(2)
+    try:
+        driver.get(value["url"])
+    except WebDriverException:
+        results[key] = {"ecgain": value["ecgain"], "contains_bids": f"Exception thrown! Could not resolve {value['url']}"}
+        continue
 
     try:
-        text = driver.find_element(By.XPATH, value["xpath"]).text
-    except Exception as e:
-        # print(e)
+        element = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.XPATH, value["xpath"]))
+        )
+
+        text = element.text if element else None
+        
+        if text == value["message"]:
+            contains_bids = False
+            ecgains.append(value["ecgain"])
+        else:
+            contains_bids = True
+            websites_list[key]["message"] = text.replace("\n", "\n")
+
+        results[key] = {"ecgain": value["ecgain"], "contains_bids": contains_bids}
+    except NoSuchElementException:
         results[key] = {"ecgain": value["ecgain"], "contains_bids": "Exception thrown! Check Manually."}
-        continue
-    
-    if value["message"] == text:
-        results[key] = {"ecgain": value["ecgain"], "contains_bids": False}
-        ecgains.append(value["ecgain"])
-    else:
-        results[key] = {"ecgain": value["ecgain"], "contains_bids": True}
-        # messages[key] = {"ecgain": value["ecgain"], "message": text.replace("\n", "\n")}
-        messages[key] = {"ecgain": value["ecgain"], "url": value["url"], "xpath": value["xpath"], "message": text.replace("\n", "\n")}
+    except TimeoutException:
+        results[key] = {"ecgain": value["ecgain"], "contains_bids": "Exception thrown! Check Manually."}
 print("")
 
+# Quit WebDriver
 driver.quit()
 
-new_websites_list = {**websites_list, **messages}
-
+# Save results to JSON
 with open("results.json", "w") as f:
-    json.dump(results, f)
+    json.dump(results, f, indent=4)
 
+# Write new data to JSON
 with open("test_websites_list.json", "w") as f:
-    json.dump(new_websites_list, f)
+    json.dump(websites_list, f, indent=4)
 
-# with open("messages.json", "w") as f:
-#     json.dump(messages, f)
-
-result = '","'.join(map(str, ecgains))
-result = f'"{result}"'
+# Write ecgains to a text file
 with open("ecgains.txt", "w") as f:
-    f.write(result)
+    ecgains_str = '","'.join(map(str, ecgains))
+    f.write(f'"{ecgains_str}"')
