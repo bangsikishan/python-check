@@ -9,7 +9,7 @@
         "ecgain": "05-09-046-0004-000000",
         "url": "https://www.islamorada.fl.us/bids.aspx",
         "xpath": "/html/body/div[8]/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/form[1]/div[3]/table/tbody/tr/td[2]/div[5]/table",
-        "message": "Open Bids 2 Bids\nFOUNDERS PARK SPLASH PAD RESURFACING PROJECT\nBid No. 23-16\nAddendum No. 1: Answer to Inquiry RFP 23-16 FOUNDERS PARK SPLASH PAD RESURFACING PROJECT A \u201cCone of Silence\u201d is hereby imposed prohibiting communications in...[Read on] Status:\nCloses: Open\n12/15/2023 3:00 PM\nGREEN TURTLE HAMMOCK NATURE PRESERVE SCENIC OVERLOOK PAVILION PROJECT (REBID)\nBid No. RFP 23-17\nRFP 23-17 GREEN TURTLE HAMMOCK NATURE PRESERVE SCENIC OVERLOOK PAVILION PROJECT (REBID) A \u201cCone of Silence\u201d is hereby imposed prohibiting communications in...[Read on] Status:\nCloses: Open\n12/15/2023 3:00 PM"
+        "message": "Open Bids 3 Bids\nFOUNDERS PARK SPLASH PAD RESURFACING PROJECT\nBid No. 23-16\nAddendum No. 1: Answer to Inquiry RFP 23-16 FOUNDERS PARK SPLASH PAD RESURFACING PROJECT A \u201cCone of Silence\u201d is hereby imposed prohibiting communications in...[Read on] Status:\nCloses: Open\n12/15/2023 3:00 PM\nGREEN TURTLE HAMMOCK NATURE PRESERVE SCENIC OVERLOOK PAVILION PROJECT (REBID)\nBid No. RFP 23-17\nADDENDUM NO. 1: EXTENSION OF BID SUBMITTAL DEADLINE TO JANUARY 10, 2024 RFP 23-17 GREEN TURTLE HAMMOCK NATURE PRESERVE SCENIC OVERLOOK PAVILION PROJECT (REBID) A...[Read on] Status:\nCloses: Open\n1/10/2024 3:00 PM\nON-DEMAND ELECTRIC VEHICLE RIDESHARING SERVICES\nBid No. RFP 23-18\nRFP 23-18 ON-DEMAND ELECTRIC VEHICLE RIDESHARING SERVICES A \u201cCone of Silence\u201d is hereby imposed prohibiting communications in connection with this bid or the...[Read on] Status:\nCloses: Open\n1/2/2024 3:00 PM"
     },
     "3": {
         "ecgain": "04-31-008-0009-000000",
@@ -201,7 +201,7 @@
         "ecgain": "05-14-048-0003-000001",
         "url": "https://www.aurorapubliclibrary.org/Bids-13282",
         "xpath": "/html/body/div[4]/div/div[3]/div/div/div[2]/div/div/table/tbody/tr[2]/td[1]",
-        "message": "Request for Proposal for Bond Counsel and Disclosure Counsel Services"
+        "message": "Request for Quotes for Smart Lockers"
     },
     "35": {
         "ecgain": "10-34-047-0011-000000",
@@ -321,7 +321,7 @@
         "ecgain": "04-31-007-0018-000000",
         "url": "http://www.bloomfieldtwpnj.com/244/Bids-RFPs-RFQs",
         "xpath": "/html/body/div[8]/div/div[2]/div[2]/div/div[3]/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]/div/div/section/div/div/div/div/div/ol/li[1]",
-        "message": "Engineering Consultant Water Public Notice (PDF)"
+        "message": "Open Space Planning and Land Acquisition (PDF)"
     },
     "55": {
         "ecgain": "05-43-161-0015-000000",
@@ -333,13 +333,13 @@
         "ecgain": "05-05-038-0015-000000",
         "url": "https://www.cityofsanteeca.gov/government/finance/purchasing/requests-for-proposals",
         "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]",
-        "message": "PROGRAM ADMINISTRATION SERVICES FOR THE CITY OF SANTEE\u2019S COMMUNITY DEVELOPMENT BLOCK GRANT (CDBG) PROGRAM"
+        "message": "Abatement of NuisanceNEW!"
     },
     "57": {
         "ecgain": "05-30-006-0012-000000",
         "url": "https://www.nashuanh.gov/Bids.aspx",
         "xpath": "/html/body/div[8]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/div/form[1]/div[3]/table/tbody/tr/td[2]/div[5]/table/thead[1]/tr",
-        "message": "City\n4 Bids"
+        "message": "City\n2 Bids"
     },
     "58": {
         "ecgain": "05-07-001-0006-000000",
@@ -477,7 +477,7 @@
         "ecgain": "05-48-040-0001-000002",
         "url": "https://www.hacm.org/doing-business-with-us/procurement",
         "xpath": "/html/body/div[3]/div/div[2]/div[3]/div[2]/div[3]/table/tbody/tr[1]/td[2]/a",
-        "message": "Quote# 10092 - Mud Jacking at Hillside"
+        "message": "58118 - Elevator Maintenance and Repair at Westlawn Gardens"
     },
     "81": {
         "ecgain": "05-05-035-0003-000000",
