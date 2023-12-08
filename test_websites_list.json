@@ -1,0 +1,200 @@
+{
+    "1": {
+        "ecgain": "04-31-018-0026-000000",
+        "url": "https://www.montgomerynj.gov/rfps",
+        "primary_selector": "classname",
+        "primary_selector_value": "view-empty",
+        "primary_xpath": ".//p",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "view-content",
+        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
+        "message": "There are no bids or RFPs available."
+    },
+    "2": {
+        "ecgain": "05-09-046-0004-000000",
+        "url": "https://www.islamorada.fl.us/bids.aspx",
+        "primary_selector": "classname",
+        "primary_selector_value": "pageStyles",
+        "primary_xpath": ".//table/tbody/tr[1]/td[2]/span[1]",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pageStyles",
+        "secondary_xpath": ".//table/tbody/tr/td/span",
+        "message": "FOUNDERS PARK SPLASH PAD RESURFACING PROJECT"
+    },
+    "3": {
+        "ecgain": "04-31-008-0009-000000",
+        "url": "https://westville-nj.com/public-notices/requests-for-proposals/",
+        "primary_selector": "id",
+        "primary_selector_value": "div_block-4-122",
+        "primary_xpath": ".//div/span/p[1]",
+        "secondary_selector": "id",
+        "secondary_selector_value": "text_block-1055-479",
+        "secondary_xpath": ".//",
+        "message": "2024 Request for Professionals"
+    },
+    "4": {
+        "ecgain": "05-01-022-0002-000000",
+        "url": "https://www.petersburgak.gov/rfps",
+        "primary_selector": "classname",
+        "primary_selector_value": "view-empty",
+        "primary_xpath": ".//p",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "view-content",
+        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
+        "message": "There are no bids or RFPs available."
+    },
+    "5": {
+        "ecgain": "05-19-014-0025-000000",
+        "url": "https://www.auburnma.gov/Bids.aspx",
+        "primary_selector": "classname",
+        "primary_selector_value": "pageStyles",
+        "primary_xpath": ".//table/tbody/tr[1]/td[2]/span[1]",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pageStyles",
+        "secondary_xpath": ".//table/tbody/tr/td/span",
+        "message": "There are no open bid postings at this time."
+    },
+    "6": {
+        "ecgain": "10-09-032-0001-000000",
+        "url": "https://www.hdsb.org/procurement",
+        "primary_selector": "classname",
+        "primary_selector_value": "pagegroup",
+        "primary_xpath": ".//div/div/ul/li[1]/span[2]/a",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pagegroup",
+        "secondary_xpath": ".//div/div/ul/li[1]/span[2]/a",
+        "message": "HCSB 2023 RFP FINAL 6-14-23 WO CLAIMS.pdf"
+    },
+    "7": {
+        "ecgain": "05-14-016-0082-000000",
+        "url": "https://www.oaklawn-il.gov/government/village_clerk/bid_and_rfp.php",
+        "primary_selector": "classname",
+        "primary_selector_value": "rpfbids",
+        "primary_xpath": ".//tbody/tr[2]/td/table[1]/tbody/tr[1]/td[1]/a[2]",
+        "secondary_selector": "xpath",
+        "secondary_selector_value": "/html/body/main/div/div/article/div[3]/table",
+        "secondary_xpath": ".//tbody/tr[2]/td/table[1]/tbody/tr[1]/td[1]/a[2]",
+        "message": "RWS (\"Regional Water System\") Improvements Water Transmission Main Bid Package No. 5"
+    },
+    "8": {
+        "ecgain": "03-10-134-0001-000000",
+        "url": "https://www.baldwincountyga.com/rfps",
+        "primary_selector": "classname",
+        "primary_selector_value": "view-empty",
+        "primary_xpath": ".//p",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "view-content",
+        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
+        "message": "There are no bids or RFPs available."
+    },
+    "9": {
+        "ecgain": "11-43-227-0001-000004",
+        "url": "https://www.tachc.org/Online/Online/About/RFP/RequestForProposals.aspx?hkey=b845f00d-fc18-4e3c-8f50-fc1d771b77ee",
+        "primary_selector": "id",
+        "primary_selector_value": "WebPartZone1_Page1",
+        "primary_xpath": ".//div[3]/div/div/h2[1]",
+        "secondary_selector": "xpath",
+        "secondary_selector_value": "//*[@id='WebPartZone1_Page1']/div[3]",
+        "secondary_xpath": ".//div[3]/div/div/h2[1]",
+        "message": "Medical Assistant Apprenticeship Curriculum for Related Technical Instruction and On-the-Job Training"
+    },
+    "10": {
+        "ecgain": "10-04-003-0008-000000",
+        "url": "https://www.pageud.org/business-office",
+        "primary_selector": "xpath",
+        "primary_selector_value": "//*[@id='maincontent']/div/div[26]/div/div/div/div[1]/div/div/div/div/div[1]/ul",
+        "primary_xpath": ".//li[1]/a",
+        "secondary_selector": "xpath",
+        "secondary_selector_value": "//*[@id='maincontent']/div/div[26]/div/div/div/div[1]/div/div/div/div/div[1]/ul",
+        "secondary_xpath": ".//li[1]/a",
+        "message": "RFP 19-04-24.pdf"
+    },
+    "11": {
+        "ecgain": "05-39-005-0001-000000",
+        "url": "https://www.centralfallsri.gov/rfps",
+        "primary_selector": "classname",
+        "primary_selector_value": "view-empty",
+        "primary_xpath": ".//p",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "view-content",
+        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
+        "message": "There are no bids or RFPs available."
+    },
+    "12": {
+        "ecgain": "05-31-002-0062-000003",
+        "url": "https://www.longbranch.org/Bids.aspx",
+        "primary_selector": "classname",
+        "primary_selector_value": "pageStyles",
+        "primary_xpath": ".//table/tbody/tr[1]/td[2]/span[1]",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pageStyles",
+        "secondary_xpath": ".//table/tbody/tr/td/span",
+        "message": "There are no open bid postings at this time."
+    },
+    "13": {
+        "ecgain": "05-43-161-0015-000000",
+        "url": "https://www.bellmeadtx.gov/bids.aspx",
+        "primary_selector": "classname",
+        "primary_selector_value": "pageStyles",
+        "primary_xpath": ".//table/tbody/tr[1]/td[2]/span[1]",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pageStyles",
+        "secondary_xpath": ".//table/tbody/tr/td/span",
+        "message": "There are no open bid postings at this time."
+    },
+    "14": {
+        "ecgain": "10-47-034-0010-000000",
+        "url": "https://www.cvsd.org/apps/pages/Bids",
+        "primary_selector": "xpath",
+        "primary_selector_value": "//*[@id='content_main']/div/div[1]/div",
+        "primary_xpath": ".//div[2]/ul/li",
+        "secondary_selector": "xpath",
+        "secondary_selector_value": "//*[@id='content_main']/div/div[1]/div",
+        "secondary_xpath": ".//div[2]/ul/li",
+        "message": "132-21-10 CVSD Gun Club Cleanup Project - Invitation to Bid"
+    },
+    "15": {
+        "ecgain": "03-48-056-0001-000000",
+        "url": "https://www.co.sauk.wi.us/rfps",
+        "primary_selector": "classname",
+        "primary_selector_value": "view-empty",
+        "primary_xpath": ".//p",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "view-content",
+        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
+        "message": "CTH HH Road Construction"
+    },
+    "16": {
+        "ecgain": "05-09-049-0002-000000",
+        "url": "https://www.fwb.org/Bids.aspx",
+        "primary_selector": "classname",
+        "primary_selector_value": "pageStyles",
+        "primary_xpath": ".//table/tbody/tr[1]/td[2]/span[1]",
+        "secondary_selector": "classname",
+        "secondary_selector_value": "pageStyles",
+        "secondary_xpath": ".//table/tbody/tr/td/span",
+        "message": "There are no open bid postings at this time."
+    },
+    "17": {
+        "ecgain": "02-07-002-0012-000017",
+        "url": "https://www.ct.edu/finance/bids",
+        "primary_selector": "id",
+        "primary_selector_value": "bids",
+        "primary_xpath": ".//div",
+        "secondary_selector": "id",
+        "secondary_selector_value": "bids",
+        "secondary_xpath": ".//div",
+        "message": "No bid opportunities currently available"
+    },
+    "90": {
+        "ecgain": "05-05-004-0004-000000",
+        "url": "https://www.cityoforoville.org/business/rfp",
+        "primary_selector": "classname",
+        "primary_selector_value": "listtable",
+        "primary_xpath": ".//tbody/tr[1]/td[2]/a",
+        "secondary_selector": "xpath",
+        "secondary_selector_value": "//*[@id='ColumnUserControl3']/div[2]/table",
+        "secondary_xpath": ".//tbody/tr[1]/td[2]/a",
+        "message": "206 Windward Way Public Notice"
+    }
+}
