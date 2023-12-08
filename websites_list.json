@@ -514,7 +514,7 @@
         "url": "https://www.cityoforoville.org/business/rfp",
         "xpath": "/html/body/div[2]/div/div[2]/div[3]/div[2]/table/tbody/tr[1]/td[2]/a",
         "message": "Video surveillance trailer and fixed mount surveillance systems"
-    },
+    }, 
     "87": {
         "ecgain": "05-19-009-0015-000000",
         "url": "https://www.newtonma.gov/government/purchasing/current-bids",
