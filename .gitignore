@@ -3,6 +3,10 @@ venv/
 source.html
 source1.html
 
+ecgains.txt
 text.txt
+
+results.json
+test_results.json
 
 test.py

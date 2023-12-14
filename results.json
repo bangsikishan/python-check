@@ -1,0 +1,122 @@
+{
+    "1": {
+        "ecgain": "04-31-018-0026-000000",
+        "contains_bids": false
+    },
+    "2": {
+        "ecgain": "05-09-046-0004-000000",
+        "contains_bids": false
+    },
+    "3": {
+        "ecgain": "04-31-008-0009-000000",
+        "contains_bids": false
+    },
+    "4": {
+        "ecgain": "05-01-022-0002-000000",
+        "contains_bids": false
+    },
+    "5": {
+        "ecgain": "05-19-014-0025-000000",
+        "contains_bids": false
+    },
+    "6": {
+        "ecgain": "10-09-032-0001-000000",
+        "contains_bids": false
+    },
+    "7": {
+        "ecgain": "05-14-016-0082-000000",
+        "contains_bids": false
+    },
+    "8": {
+        "ecgain": "03-10-134-0001-000000",
+        "contains_bids": false
+    },
+    "9": {
+        "ecgain": "11-43-227-0001-000004",
+        "contains_bids": false
+    },
+    "10": {
+        "ecgain": "10-04-003-0008-000000",
+        "contains_bids": false
+    },
+    "11": {
+        "ecgain": "05-39-005-0001-000000",
+        "contains_bids": false
+    },
+    "12": {
+        "ecgain": "05-31-002-0062-000003",
+        "contains_bids": false
+    },
+    "13": {
+        "ecgain": "05-43-161-0015-000000",
+        "contains_bids": false
+    },
+    "14": {
+        "ecgain": "10-47-034-0010-000000",
+        "contains_bids": false
+    },
+    "15": {
+        "ecgain": "03-48-056-0001-000000",
+        "contains_bids": false
+    },
+    "16": {
+        "ecgain": "05-09-049-0002-000000",
+        "contains_bids": false
+    },
+    "17": {
+        "ecgain": "02-07-002-0012-000017",
+        "contains_bids": false
+    },
+    "18": {
+        "ecgain": "10-24-109-0001-000002",
+        "contains_bids": false
+    },
+    "19": {
+        "ecgain": "02-21-006-0001-000002",
+        "contains_bids": false
+    },
+    "20": {
+        "ecgain": "05-10-084-0001-000000",
+        "contains_bids": false
+    },
+    "21": {
+        "ecgain": "05-19-009-0015-000000",
+        "contains_bids": false
+    },
+    "22": {
+        "ecgain": "05-05-004-0004-000000",
+        "contains_bids": false
+    },
+    "23": {
+        "ecgain": "03-46-009-0004-000000",
+        "contains_bids": false
+    },
+    "24": {
+        "ecgain": "05-27-070-0001-000000",
+        "contains_bids": false
+    },
+    "25": {
+        "ecgain": "03-45-002-0002-000000",
+        "contains_bids": false
+    },
+    "26": {
+        "ecgain": "05-19-009-0023-000000",
+        "contains_bids": false
+    },
+    "27": {
+        "ecgain": "05-05-035-0003-000000",
+        "contains_bids": false
+    },
+    "28": {
+        "ecgain": "05-48-040-0001-000002",
+        "contains_bids": false
+    },
+    "29": {
+        "ecgain": "05-47-038-0004-000000",
+        "contains_bids": false
+    },
+    "30": {
+        "ecgain": "05-42-078-0004-000000",
+        "contains_bids": false
+    }
+}

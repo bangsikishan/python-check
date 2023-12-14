@@ -1,4 +1,5 @@
 import json
+from typing import Optional
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
@@ -33,7 +34,7 @@ driver = webdriver.Chrome(options=options, service=service)
 
 wait = WebDriverWait(driver, 30)
 
-def check_website(selector, selector_value, xpath):
+def check_website(selector: By, selector_value: str, xpath: str) -> str:
     parent_element = wait.until(
         EC.visibility_of_element_located((selector, selector_value))
     )
@@ -43,17 +44,12 @@ def check_website(selector, selector_value, xpath):
     return text
     
 
-def get_selector(selector):
-    match selector:
-        case "classname":
-            return By.CLASS_NAME
-        case "id":
-            return By.ID
-        case "xpath":
-            return By.XPATH
-        case _:
-            print("Invalid selector!")
-            return None
+def get_selector(selector: str) -> Optional[By]:
+    return {
+        "classname": By.CLASS_NAME,
+        "id": By.ID,
+        "xpath": By.XPATH
+    }.get(selector, None) or print("Invalid selector!")
 
 
 results = {}
