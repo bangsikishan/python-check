@@ -34,15 +34,32 @@ driver = webdriver.Chrome(options=options, service=service)
 
 wait = WebDriverWait(driver, 30)
 
-def check_website(selector: By, selector_value: str, xpath: str) -> str:
-    parent_element = wait.until(
-        EC.visibility_of_element_located((selector, selector_value))
+def get_element_text(selector: By, selector_value: str, xpath: str) -> str:
+    try:
+        parent_element = wait.until(
+            EC.visibility_of_element_located((selector, selector_value))
+        )
+    
+        return parent_element.find_element(By.XPATH, xpath).text
+    except (NoSuchElementException, TimeoutException):
+        return ""
+    
+def get_text_from_selector(selectors: dict) -> str:
+    primary_text = get_element_text(
+        get_selector(selectors["primary_selector"]),
+        selectors["primary_selector_value"],
+        selectors["primary_xpath"]
     )
 
-    text = parent_element.find_element(By.XPATH, xpath).text
-
-    return text
+    if primary_text:
+        return primary_text
     
+    return get_element_text(
+        get_selector(selectors["secondary_selector"]),
+        selectors["secondary_selector_value"],
+        selectors["secondary_xpath"]
+    )
+
 
 def get_selector(selector: str) -> Optional[By]:
     return {
@@ -62,20 +79,7 @@ for key, value in websites_list.items():
     except WebDriverException:
         print("Webdriver exception thrown!")
 
-    try:
-        text = check_website(
-            get_selector(value["primary_selector"]),
-            value["primary_selector_value"],
-            value["primary_xpath"]
-        )
-    except (NoSuchElementException, TimeoutException):
-        # with open("source.html", "w", encoding="utf-8") as f:
-        #     f.write(driver.page_source)
-        text = check_website(
-            get_selector(value["secondary_selector"]),
-            value["secondary_selector_value"],
-            value["secondary_xpath"]
-        )
+    text = get_text_from_selector(value)
 
     if text == value["message"]:
         results[key] = {"ecgain": value["ecgain"], "contains_bids": False}

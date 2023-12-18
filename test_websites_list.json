@@ -19,7 +19,7 @@
         "secondary_selector": "classname",
         "secondary_selector_value": "pageStyles",
         "secondary_xpath": ".//table/tbody/tr/td/span",
-        "message": "FOUNDERS PARK SPLASH PAD RESURFACING PROJECT"
+        "message": "GREEN TURTLE HAMMOCK NATURE PRESERVE SCENIC OVERLOOK PAVILION PROJECT (REBID)"
     },
     "3": {
         "ecgain": "04-31-008-0009-000000",
@@ -117,8 +117,8 @@
         "primary_xpath": ".//p",
         "secondary_selector": "classname",
         "secondary_selector_value": "view-content",
-        "secondary_xpath": ".//table/tbody/tr[1]/td[1]",
-        "message": "There are no bids or RFPs available."
+        "secondary_xpath": ".//table/tbody/tr/td[1]/a",
+        "message": ""
     },
     "12": {
         "ecgain": "05-31-002-0062-000003",
@@ -272,7 +272,7 @@
         "secondary_selector": "xpath",
         "secondary_selector_value": "//*[@id='ColumnUserControl3']/div[2]/table",
         "secondary_xpath": ".//tbody/tr[1]/td[2]/a",
-        "message": "Sole Source Award Data Cloud Solutions- Mobile Assessor"
+        "message": "Office Reservation Software System"
     },
     "26": {
         "ecgain": "05-19-009-0023-000000",
@@ -305,7 +305,7 @@
         "secondary_selector": "xpath",
         "secondary_selector_value": "//*[@id='ColumnUserControl3']/div[2]/table",
         "secondary_xpath": ".//tbody/tr[1]/td[2]/a",
-        "message": "58119 - Masonry at Highland Gardens"
+        "message": "9034 - Fencing at Warehouse (2807 West Vliet Street)"
     },
     "29": {
         "ecgain": "05-47-038-0004-000000",
@@ -316,7 +316,7 @@
         "secondary_selector": "xpath",
         "secondary_selector_value": "//*[@id='ColumnUserControl3']/div[2]/table",
         "secondary_xpath": ".//tbody/tr[1]/td[1]/a",
-        "message": "Watershed Master/Resiliency Plan - Request for Qualifications"
+        "message": "Investment Advisory Services - Request for Proposals"
     },
     "30": {
         "ecgain": "05-42-078-0004-000000",
