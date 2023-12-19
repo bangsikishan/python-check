@@ -81,7 +81,7 @@ for key, value in websites_list.items():
 
     text = get_text_from_selector(value)
 
-    if text == value["message"]:
+    if not text or text == value["message"]:
         results[key] = {"ecgain": value["ecgain"], "contains_bids": False}
         ecgains.append(value["ecgain"])
     else:
